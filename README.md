@@ -10,10 +10,7 @@ After that is done update the cookbook_paths in the template and run packer to b
 
 To build the image run:
 
-```packer build \
-    -var 'aws_access_key=YOUR ACCESS KEY' \
-    -var 'aws_secret_key=YOUR SECRET KEY' \
-    hello_world.json ```
+```packer build -var 'aws_access_key=YOUR ACCESS KEY' -var 'aws_secret_key=YOUR SECRET KEY' hello_world.json ```
 
 or 
 
